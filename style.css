@@ -18,13 +18,16 @@ body{
   'aside header'
   'aside main'
   'footer footer';
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 230px 1fr;
   color: var(--color-text);
   background-color: var(--color-bg);
 }
 
 aside{
   grid-area: aside;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
   background-color: var(--color-card-bg);
 }
 
@@ -32,16 +35,32 @@ aside img{
   width: 100px;
 }
 
+aside > div{
+  padding: 20px 0;
+}
+
+aside > div:not(:last-child){
+  border-bottom: 2px solid var(--color-bg);
+}
+
 header{
   grid-area: header;
-  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  padding: 30px;
+  gap: 10px;
   background-size: cover;
   background-image: url('./imgs/header-bg-img.jpg');
 }
 
 header a{
-  text-align: center;
+  width: 100px;
   padding: 10px 30px;
+  text-align: center;
+  color: var(--color-bg);
+  font-weight: 600;
   background-color: var(--color-accent);
   border: 1px solid var(--color-accent);
 }
@@ -71,6 +90,21 @@ h2{
   padding: 15px 0;
 }
 
+a{
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+ul{
+  display: inline;
+  padding: 0;
+}
+
+ul li{
+  display: inline;
+  list-style: none;
+}
+
 .card-container{
   display: flex;
   flex-wrap: wrap;
@@ -91,16 +125,6 @@ h2{
 
 .card-content{
   padding: 10px 10px 20px 10px;
-}
-
-.card ul{
-  display: inline;
-  padding: 0;
-}
-
-.card ul li{
-  display: inline;
-  list-style: none;
 }
 
 .card a{
