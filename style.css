@@ -43,6 +43,11 @@ aside > div:not(:last-child){
   border-bottom: 2px solid var(--color-bg);
 }
 
+aside > div:last-child ul{
+  display: flex;
+  justify-content: space-evenly;
+}
+
 header{
   grid-area: header;
   display: flex;
@@ -132,4 +137,10 @@ ul li{
   text-align: center;
   background-color: var(--color-accent);
   border: 1px solid var(--color-accent);
+}
+
+.social-media-icon{
+  width: 25px;
+  background: none;
+  filter: invert(0.9);
 }
