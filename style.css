@@ -1,9 +1,9 @@
 :root{
   --color-text:rgba(255, 255, 255, 0.867);
-  --color-headings: #fff;
-  --color-bg: #0E3A47;
+  --color-headings: #d1b1b2;
+  --color-bg: #273454;
   --color-card-bg: #ffffff27;
-  --color-accent: #E6E4C6;
+  --color-accent: #f0e8e5;
 }
 
 *{
@@ -85,7 +85,7 @@ header{
   padding: 30px;
   gap: 10px;
   background-size: cover;
-  background-image: url('./imgs/header-bg-img.jpg');
+  background-image: url('./imgs/projects/project-bg-img.jpg');
   border-bottom-left-radius: 3px;
 }
 
@@ -115,6 +115,10 @@ section{
 footer{
   grid-area: footer;
   text-align: center;
+}
+
+footer p{
+  padding: 5px 0;
 }
 
 h1{
