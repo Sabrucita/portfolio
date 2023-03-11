@@ -33,6 +33,10 @@ aside{
 
 aside img{
   width: 100px;
+  aspect-ratio: 1;
+  object-fit:cover;
+  margin: 0 auto;
+  border-radius: 100%;
 }
 
 aside > div{
@@ -48,8 +52,32 @@ aside > div:last-child ul{
   justify-content: space-evenly;
 }
 
+#aside-tech div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+progress {
+  -webkit-appearance: none;
+  width: 100%;
+}
+::-webkit-progress-inner-element {
+  height: 5px;
+}
+/* Selected part of progress */
+::-webkit-progress-value {
+  background-color: var(--color-accent);
+}
+/* Background progress */
+::-webkit-progress-bar{
+  background-color: var(--color-bg);
+}
+
 header{
   grid-area: header;
+  margin: 0 0 0 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -58,6 +86,7 @@ header{
   gap: 10px;
   background-size: cover;
   background-image: url('./imgs/header-bg-img.jpg');
+  border-bottom-left-radius: 3px;
 }
 
 header a{
@@ -68,6 +97,7 @@ header a{
   font-weight: 600;
   background-color: var(--color-accent);
   border: 1px solid var(--color-accent);
+  border-radius: 10px;
 }
 
 header p{
@@ -143,4 +173,20 @@ ul li{
   width: 25px;
   background: none;
   filter: invert(0.9);
+}
+
+
+@media (max-width: 638px){
+  body{
+    grid-template-areas:
+    'header'
+    'aside'
+    'main'
+    'footer';
+    grid-template-columns: 1fr;
+  }
+  header{
+    margin: 0px;
+    border-bottom-left-radius: 0px;
+  }
 }

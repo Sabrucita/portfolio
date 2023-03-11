@@ -1,12 +1,22 @@
 const cardContainer = document.querySelector('.card-container')
+const asideTechnologies = document.querySelector('#aside-tech')
+const socialMedia = document.querySelector('#social')
+const myAge = document.querySelector('#myAge')
+const currentLanguages = document.querySelector('#languages')
 
-function getTechnologies(technologies) {
+function getElements(elements) {
   let list='';
-  technologies.forEach(technology => {
-    list+=`<li>${technology}</li> `
+  elements.forEach(element => {
+    list+=`<li>${element}</li> `
   });
   return list
 }
+
+function getMyAge(){
+  return new Date(new Date()-new Date('05/08/1995')).getFullYear()-1970
+}
+
+myAge.innerHTML=`${getMyAge()}`
 
 projects.forEach(project => {
   const newCard = document.createElement('div')
@@ -19,7 +29,7 @@ projects.forEach(project => {
     <div>
       <span>Technologies:</span>
       <ul>
-        ${getTechnologies(project.technologies)}
+        ${getElements(project.technologies)}
       </ul>
     </div>
   </div>
@@ -27,3 +37,29 @@ projects.forEach(project => {
   `
   cardContainer.appendChild(newCard)
 });
+
+currentTechnologies.forEach(currentTech => {
+  const newTech = document.createElement('div')
+  newTech.innerHTML=`
+  <span>${currentTech.name}</span>
+  <span>${currentTech.value}</span>
+  <progress value="${currentTech.progress}" max="100"></progress>
+  `
+  asideTechnologies.appendChild(newTech)
+})
+
+socials.forEach(social => {
+  const newSocial = document.createElement('li')
+  newSocial.innerHTML=`
+  <a href="${social.link}" target="_blank">
+  <img class="social-media-icon" src="./imgs/social-media/${social.img}" alt="${social.altText}"></a>
+  `
+  socialMedia.appendChild(newSocial)
+});
+
+languages.forEach(language => {
+  const newLanguage = document.createElement('p')
+  newLanguage.innerHTML=`${language.language}: ${language.level}`
+
+  currentLanguages.appendChild(newLanguage)
+})
