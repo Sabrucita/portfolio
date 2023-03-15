@@ -1,3 +1,6 @@
 # Welcome to my Portfolio
 
-For now there's nothing to see, come back later, right now I'm working for you!
+This is the first concept of my Portfolio, I will be updating it while I keep learning.
+
+### If you want to look at it, check the next link:
+https://sabrucita.github.io/portfolio/
