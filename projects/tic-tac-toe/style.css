@@ -1,0 +1,46 @@
+:root{
+  --primary-color:rgb(202, 102, 211);
+  --secundary-color: #4e1444;
+  --line-style: 10px solid var(--secundary-color);
+}
+
+body{
+  user-select: none;
+}
+
+h1{
+  text-align: center;
+  font-size: 4rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: var(--primary-color)
+}
+
+.gridContainer{
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  justify-content: center;
+}
+
+.square{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.middle{
+  border-left: var(--line-style);
+  border-right: var(--line-style)
+}
+
+.up{
+  border-bottom: var(--line-style);
+}
+
+.bottom{
+  border-top: var(--line-style);
+}
