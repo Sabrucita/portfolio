@@ -26,9 +26,8 @@ squares.forEach((square) => {
 
 function checkWinnerExistence() {
   const board = squares.map(square => square.textContent)
-  console.log(board)
 
-  //revisar horizontales
+  //horizontals
   for (let i = 0; i <=9; i+=3) {
     if(board[i] &&
     board[i] == board[i+1] &&
@@ -36,7 +35,7 @@ function checkWinnerExistence() {
       return [i,i+1,i+2]
     }
   }
-  //revisar verticales
+  //verticals
   for (let i = 0; i <=3; i++) {
     if(board[i] &&
     board[i] == board[i+3] &&
@@ -44,7 +43,7 @@ function checkWinnerExistence() {
       return [i,i+3,i+6]
     }
   }
-  //revisar oblicuas
+  //diagonals
   if(board[0] &&
   board[0] === board[4] &&
   board[0] === board[8]){
@@ -61,7 +60,6 @@ function checkWinnerExistence() {
 }
 
 function winner(winningPosition) {
-  console.log('ganador', winningPosition)
   winningPosition.forEach(position => {
     squares[position].classList.toggle('winner',true)
   })
