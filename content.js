@@ -1,22 +1,22 @@
 const projects = [{
-  img: 'project-bg-img.jpg',
-  name: 'Pokedex',
-  description: 'lorem',
-  technologies: ['ts','CSS','HTML'],
-  link: 'http://github.com'
+  img: 'tinder-for-dogs.jpg',
+  name: 'Tinder for Dogs',
+  description: "All dogs are pretty 😍. I'm just having fun while I learn more about HTML, CSS and Javascript",
+  technologies: ['Js','CSS','HTML'],
+  link: 'https://sabrucita.github.io/tinder-for-dogs/'
+},
+{
+  img: 'tic-tac-toe.jpg',
+  name: 'Tic Tac Toe',
+  description: 'Almost the most known simple game, this project helped me use the basics of CSS and Javascript.',
+  technologies: ['Js','CSS','HTML'],
+  link: 'https://sabrucita.github.io/tic-tac-toe/'
 },
 {
   img: 'project-bg-img.jpg',
   name: 'Calo Responde',
   description: 'lorem',
-  technologies: ['HTML'],
-  link: 'http://github.com'
-},
-{
-  img: 'project-bg-img.jpg',
-  name: 'Calo Responde',
-  description: 'lorem',
-  technologies: ['js','HTML'],
+  technologies: ['Js','CSS','HTML'],
   link: 'http://github.com'
 },
 {
