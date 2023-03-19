@@ -13,11 +13,11 @@ const projects = [{
   link: 'https://sabrucita.github.io/tic-tac-toe/'
 },
 {
-  img: 'project-bg-img.jpg',
-  name: 'Calo Responde',
-  description: 'lorem',
+  img: 'blender.jpg',
+  name: 'Blender',
+  description: "This is just an easy and fast turn on/off 'real' blender exercise. It's only for fun purposes 😜",
   technologies: ['Js','CSS','HTML'],
-  link: 'http://github.com'
+  link: 'https://sabrucita.github.io/blender/'
 },
 {
   img: 'project-bg-img.jpg',
