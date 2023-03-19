@@ -70,12 +70,12 @@ const socials = [{
   altText:'GitHub'
 },
 {
-  link:'http://linkedin.com/sabri-pereira',
+  link:'https://www.linkedin.com/in/sabri-pereira/',
   img:'linkedin.png',
   altText:'LinkedIn'
 },
 {
-  link:'http://instagram.com/sabri.pereira',
+  link:'https://www.instagram.com/sabri.pereira/',
   img:'instagram.png',
   altText:'Instagram'
 }]

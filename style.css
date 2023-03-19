@@ -152,9 +152,13 @@ ul li{
 }
 
 .card{
+  display: flex;
+  flex-direction: column;
   flex-basis: 500px;
   flex-grow: 1;
   background-color: var(--color-card-bg);
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .card img{
@@ -172,6 +176,7 @@ ul li{
   text-align: center;
   background-color: var(--color-accent);
   border: 1px solid var(--color-accent);
+  margin-top: auto;
 }
 
 .social-media-icon{

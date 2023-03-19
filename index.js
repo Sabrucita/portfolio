@@ -33,7 +33,7 @@ projects.forEach(project => {
       </ul>
     </div>
   </div>
-  <a href="${project.link}">See Project</a>
+  <a href="${project.link}" target="_blank">See Project</a>
   `
   cardContainer.appendChild(newCard)
 });
@@ -60,6 +60,5 @@ socials.forEach(social => {
 languages.forEach(language => {
   const newLanguage = document.createElement('p')
   newLanguage.innerHTML=`${language.language}: ${language.level}`
-
   currentLanguages.appendChild(newLanguage)
 })
