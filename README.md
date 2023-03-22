@@ -9,3 +9,4 @@ https://sabrucita.github.io/portfolio/
 
 - **Tic Tac Toe:** https://sabrucita.github.io/tic-tac-toe/
 - **Tinder for Dogs:** https://sabrucita.github.io/tinder-for-dogs/
+- **Blender:** https://sabrucita.github.io/blender/
