@@ -1,4 +1,11 @@
 const projects = [{
+  img: 'typing-test.jpg',
+  name: 'Typing Test',
+  description: 'Who never played this? Fighting to see who wrote more words per minute 😜. I just wanted to recreate that game',
+  technologies: ['Js','CSS','HTML'],
+  link: 'https://sabrucita.github.io/typing-test/'
+},
+{
   img: 'tinder-for-dogs.jpg',
   name: 'Tinder for Dogs',
   description: "All dogs are pretty 😍. I'm just having fun while I learn more about HTML, CSS and Javascript",
@@ -18,13 +25,6 @@ const projects = [{
   description: "This is just an easy and fast turn on/off 'real' blender exercise. It's only for fun purposes 😜",
   technologies: ['Js','CSS','HTML'],
   link: 'https://sabrucita.github.io/blender/'
-},
-{
-  img: 'project-bg-img.jpg',
-  name: 'Calo Responde',
-  description: 'lorem',
-  technologies: ['ts','js','HTML','react'],
-  link: 'http://github.com'
 },
 {
   img: 'project-bg-img.jpg',
