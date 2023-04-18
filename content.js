@@ -1,4 +1,11 @@
 const projects = [{
+    img: 'pong.jpg',
+    name: 'Pong',
+    description: 'I think this is one of the most classy games I know, it was a great challenge.',
+    technologies: ['Js','CSS','HTML'],
+    link: 'https://sabrucita.github.io/pong/'
+  },
+  {
   img: 'typing-test.jpg',
   name: 'Typing Test',
   description: 'Who never played this? Fighting to see who wrote more words per minute 😜. I just wanted to recreate that game',
@@ -25,6 +32,34 @@ const projects = [{
   description: "This is just an easy and fast turn on/off 'real' blender exercise. It's only for fun purposes 😜",
   technologies: ['Js','CSS','HTML'],
   link: 'https://sabrucita.github.io/blender/'
+},
+{
+  img: 'project-bg-img.jpg',
+  name: 'Calo Responde',
+  description: 'lorem',
+  technologies: ['js','HTML'],
+  link: 'http://github.com'
+},
+{
+  img: 'project-bg-img.jpg',
+  name: 'Calo Responde',
+  description: 'lorem',
+  technologies: ['js','HTML'],
+  link: 'http://github.com'
+},
+{
+  img: 'project-bg-img.jpg',
+  name: 'Calo Responde',
+  description: 'lorem',
+  technologies: ['js','HTML'],
+  link: 'http://github.com'
+},
+{
+  img: 'project-bg-img.jpg',
+  name: 'Calo Responde',
+  description: 'lorem',
+  technologies: ['js','HTML'],
+  link: 'http://github.com'
 },
 {
   img: 'project-bg-img.jpg',
