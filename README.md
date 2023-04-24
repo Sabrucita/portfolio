@@ -12,3 +12,4 @@ https://sabrucita.github.io/portfolio/
 - **Blender:** https://sabrucita.github.io/blender/
 - **Typing Test:** https://sabrucita.github.io/typing-test/
 - **Pong:** https://sabrucita.github.io/pong/
+- **Abstract Page:** https://sabrucita.github.io/abstract-page-FE-practice/

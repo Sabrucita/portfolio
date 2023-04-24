@@ -1,4 +1,11 @@
 const projects = [{
+    img: 'abstract-page-FE-practice.jpg',
+    name: 'Abstract Page',
+    description: 'This is my first time trying to replicate a webpage, with help of the Front End Practice website, where I chose an example to work with, I selected the following project: https://help.abstract.com/hc/en-us',
+    technologies: ['Js','CSS','HTML'],
+    link: 'https://sabrucita.github.io/abstract-page-FE-practice/'
+  },
+  {
     img: 'pong.jpg',
     name: 'Pong',
     description: 'I think this is one of the most classy games I know, it was a great challenge.',
@@ -32,13 +39,6 @@ const projects = [{
   description: "This is just an easy and fast turn on/off 'real' blender exercise. It's only for fun purposes 😜",
   technologies: ['Js','CSS','HTML'],
   link: 'https://sabrucita.github.io/blender/'
-},
-{
-  img: 'project-bg-img.jpg',
-  name: 'Calo Responde',
-  description: 'lorem',
-  technologies: ['js','HTML'],
-  link: 'http://github.com'
 },
 {
   img: 'project-bg-img.jpg',
