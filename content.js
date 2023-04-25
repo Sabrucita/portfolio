@@ -1,7 +1,7 @@
 const projects = [{
     img: 'abstract-page-FE-practice.jpg',
     name: 'Abstract Page',
-    description: 'This is my first time trying to replicate a webpage, with help of the Front End Practice website, where I chose an example to work with, I selected the following project: https://help.abstract.com/hc/en-us',
+    description: 'This is my first time trying to replicate a webpage ONLY in DESKTOP version, with help of the Front End Practice website, where I chose an example to work with, I selected the following project: https://help.abstract.com/hc/en-us',
     technologies: ['Js','CSS','HTML'],
     link: 'https://sabrucita.github.io/abstract-page-FE-practice/'
   },
