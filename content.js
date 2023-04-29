@@ -1,8 +1,16 @@
-const projects = [{
+const projects = [
+  {
+    img: 'lobe-tour-FE-practice.jpg',
+    name: 'Lobe Tour',
+    description: 'This is the webpage N° 2 I try to replicate, with help of the Front End Practice website, where I chose an example to work with, I selected the following project: https://www.lobe.ai/tour',
+    technologies: ['Js','CSS','HTML'],
+    link: 'https://sabrucita.github.io/lobe-tour-page-FE-practice/'
+  },
+  {
     img: 'abstract-page-FE-practice.jpg',
     name: 'Abstract Page',
     description: 'This is my first time trying to replicate a webpage ONLY in DESKTOP version, with help of the Front End Practice website, where I chose an example to work with, I selected the following project: https://help.abstract.com/hc/en-us',
-    technologies: ['Js','CSS','HTML'],
+    technologies: ['CSS','HTML'],
     link: 'https://sabrucita.github.io/abstract-page-FE-practice/'
   },
   {
@@ -39,13 +47,6 @@ const projects = [{
   description: "This is just an easy and fast turn on/off 'real' blender exercise. It's only for fun purposes 😜",
   technologies: ['Js','CSS','HTML'],
   link: 'https://sabrucita.github.io/blender/'
-},
-{
-  img: 'project-bg-img.jpg',
-  name: 'Calo Responde',
-  description: 'lorem',
-  technologies: ['js','HTML'],
-  link: 'http://github.com'
 },
 {
   img: 'project-bg-img.jpg',
